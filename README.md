@@ -22,6 +22,28 @@ This AI Cart System is designed to recognize supermarket items using the YOLOv4 
 2. Install the required Python dependencies.
 3. Download the pre-trained YOLOv4 weights or custom ttrain your weights and place them in the project directory.
 
+## Detailed Guide for `Train_YoloV3_Multiple.ipynb`
+
+This notebook is your step-by-step guide to training the YOLOv3 model on multiple classes of supermarket items. It is structured to take you through the entire process of training, from setting up your dataset to the final model training.
+
+### Adjusting for Extra Classes
+
+When adding extra classes to your model, there are specific sections within the notebook that require your attention:
+
+1. **Dataset Preparation**: Ensure your dataset includes labeled images for all the classes you intend to train the model on. The labeling format should be compatible with YOLOv3 requirements.
+
+2. **Configuration Files**: Adjust the `.cfg` file for YOLOv3 to include the number of classes you are training for. This involves changing the `classes` parameter in each of the `[yolo]` layers and the `filters` parameter in the preceding `[convolutional]` layers. The formula to calculate the `filters` value is `(classes + 5)*3`.
+
+3. **Class Names File**: Update the `obj.names` file to include the names of the new classes you're adding. Ensure that the order of class names matches the labels in your dataset.
+
+4. **Training Parameters**: Depending on the complexity and the number of classes, you might need to adjust the training parameters such as learning rate, batch size, and number of iterations to ensure optimal training performance.
+
+5. **Model Evaluation**: After training, evaluate the model's performance on a test set that includes examples of the new classes. Adjust the training parameters as necessary based on the evaluation results.
+
+### Final Steps
+
+After making these adjustments, proceed with the training process as outlined in the notebook. Monitor the training process closely to ensure that the model is learning effectively. Post-training, thoroughly test the model with real-world data to validate its accuracy and reliability.
+
 ### Running the Object Detection
 
 To run the object detection script, execute the following command in your terminal:
