@@ -20,7 +20,7 @@ This AI Cart System is designed to recognize supermarket items using the YOLOv4 
 
 1. Clone this repository to your local machine.
 2. Install the required Python dependencies.
-3. Download the pre-trained YOLOv4 weights and place them in the project directory.
+3. Download the pre-trained YOLOv4 weights or custom ttrain your weights and place them in the project directory.
 
 ### Running the Object Detection
 
