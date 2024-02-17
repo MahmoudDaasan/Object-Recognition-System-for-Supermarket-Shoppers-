@@ -1,7 +1,7 @@
-# AI Cart System
+# Object Recognition System for Supermarket Shoppers 
 
 ## Overview
-This AI Cart System is designed to recognize supermarket items using the YOLOv4 algorithm. The project aims to streamline the shopping experience by automatically identifying items placed in a shopping cart, facilitating a quicker checkout process.
+This Object Recognition System for Supermarket Shoppers  is designed to recognize supermarket items using the YOLOv4 algorithm. The project aims to streamline the shopping experience by automatically identifying items placed in a shopping cart, facilitating a quicker checkout process.
 
 ## Files in the Repository
 
