@@ -1,7 +1,7 @@
 # Object Recognition System for Supermarket Shoppers 
 
 ## Overview
-This Object Recognition System for Supermarket Shoppers  is designed to recognize supermarket items using the YOLOv4 algorithm. The project aims to streamline the shopping experience by automatically identifying items placed in a shopping cart, facilitating a quicker checkout process.
+This Object Recognition System for Supermarket Shoppers  is designed to recognize supermarket items using the YOLOv3 algorithm. The project aims to streamline the shopping experience by automatically identifying items placed in a shopping cart, facilitating a quicker checkout process.
 
 ## Files in the Repository
 
@@ -14,13 +14,13 @@ This Object Recognition System for Supermarket Shoppers  is designed to recogniz
 
 - Python 3.6 or higher
 - Dependencies: opencv-python, numpy, matplotlib (Install using `pip install -r requirements.txt`)
-- Pre-trained YOLOv4 weights (Download and place in the project directory)
+- Pre-trained YOLOv3 weights (Download and place in the project directory)
 
 ### Setup
 
 1. Clone this repository to your local machine.
 2. Install the required Python dependencies.
-3. Download the pre-trained YOLOv4 weights or custom ttrain your weights and place them in the project directory.
+3. Download the pre-trained YOLOv3 weights or custom ttrain your weights and place them in the project directory.
 
 ## Detailed Guide for `Train_YoloV3_Multiple.ipynb`
 
